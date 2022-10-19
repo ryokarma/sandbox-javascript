@@ -8,9 +8,8 @@ let monTableauAssociatif = {
 function afficherTableau(tableau){
     let chaine = '';
     //let tableau;
-    for (valeur in tableau) {
+    for (const valeur in tableau) {
        chaine += (valeur + ' : ' + tableau[valeur] + '\n');
-       return afficherTableau(tableau);
         };
         console.log(chaine);
 };
